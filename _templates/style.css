@@ -12,6 +12,7 @@ html, body{
 	width: 100%;
 	margin: auto;
 	background: url(https://media.mnn.com/assets/images/2017/01/cow-in-pasture.jpg.838x0_q80.jpg) no-repeat 50% 50%;
+										/*get band photo*/
 	display: table;
 	top: 0;
 	background-size: cover;
@@ -26,4 +27,20 @@ html, body{
 	max-width: 500px;
 	margin: 0 auto;
 	text-align: center;
+}
+.content h1 {
+	font-family: 'Raleway', sans-serif;	/*change font*/
+	color: #FFFFFF;						/*change color*/
+	text-shadow: 0px 0px 300px #000;	/*mess with this*/
+	font-size: 500%;
+}
+.enter_button{
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;	/*change font*/
+	color: #FFFFFF;						/*change color*/
+	font-size: 150%;
+	padding: 10px 20px;					/*space around text on button*/
+	border: solid #FFFFFF 3px;			/*border for button*/
+	text-transform: uppercase;
+	text-decoration: none;
 }
