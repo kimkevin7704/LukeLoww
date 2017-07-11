@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: black;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
 .menu ul {
 	position: fixed;
 	top: 0;
@@ -30,11 +41,10 @@
 	background-color: #111;
 }
 
-body {
+.music_player {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url(https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/19055821_740780079443089_6958162244822982322_o.jpg?oh=e2fa443ed6d961c78f935916ff5fbf22&oe=59CCE94A) no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;s
