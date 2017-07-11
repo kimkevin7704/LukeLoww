@@ -7,14 +7,22 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-align: center;
+}
+
+.openingtext {
+	padding: 15%;
+}
+
+#openertitle {
+	font-family: "Raleway", sans-serif;
+	color: #FFF;
+	font-size: 500%;
 }
 
 #enterbutton{
 	font-family: "Oswald", sans-serif;
 	font-size: 200%;
-	position: fixed;
-	top: 50%;
-	left: 50%;
 	color: #FFF;
 	border: solid #FFF 3px;
 	padding: 8px 15px;
@@ -79,4 +87,21 @@
 	height: 100%;
 	display: block;
 	background-size: cover;
+}
+
+.music {
+	background-image: url("../images/dope.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.musiccontent {
+
+}
+
+.musictracks {
+	
 }
