@@ -1,6 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+.opener {
+	background-image: url("../images/dope.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#enterbutton{
+	font-family: "Oswald", sans-serif;
+	font-size: 200%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	color: #FFF;
+	border: solid #FFF 3px;
+	padding: 8px 15px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+#enterbutton:hover{
+	color: #000;
+	border: solid #000 3px;
+}
+
 .menu {
 	position: fixed;
 	top: 0;
