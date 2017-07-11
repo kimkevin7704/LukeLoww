@@ -1,15 +1,7 @@
-<html>
-	<link rel="stylesheet" type="text/css" href="../static/styles/style_home.css">
-	<title>LUKELOWW</title>
-	<body>
-		<div class="menu">
-			<ul>
-				<li><a href="music.html">MUSIC</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
-				<li><a href="gallery.html">GALLERY</a></li>
-				<li><a href="https://lukeloww.bandcamp.com/merch/compact-disc-shirt">MERCH</a></li>
-				<li style= "float:right"><a class="right" href="index.html">LUKELOWW</a></li>
-			</ul>
-		</div>
-	</body>
-</html>
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="home">
+	<img id="backgroundimage" src="../static/images/crew.jpg"/>
+</div>
+{% endblock %}
